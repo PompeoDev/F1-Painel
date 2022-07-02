@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #111;
+}
+span {
+  width: 100%;
+  height: 50px;
+  color: #111;
+  display: block;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
+
+h1 {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+a {
+  font-size: 16px;
+}
+.prim {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+.pista {
+  background: #121212;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+.clima {
+  background: #121212;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+.grid {
+  background: #121212;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  grid-column: 1 / -1;
+}
